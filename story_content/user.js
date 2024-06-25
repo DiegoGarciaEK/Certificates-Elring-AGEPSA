@@ -62,11 +62,11 @@ date = mm + ' ' + yyyy;
 var player = GetPlayer();
 var name = player.GetVar("Name"); /* Name of the participant (comes from Storyline input) */
 var firma = player.GetVar("Company"); /* Company of the participant (comes from Storyline input) */
-var training = "Principles of the sealing technology\r\n in combustion engines";
+var training = "Tecnología de empaques en\r\n motores de combustión interna";
 var city = player.GetVar("City");
 var line1 = 'ha participado en el seminario';
 var trainer = "DIEGO GARCÍA";
-var line2 = 'Technical Trainer IAM';
+var line2 = 'Instructor Técnico IAM';
 var line3 = city + ', ' + date;
 
 var doc = new jsPDF();
