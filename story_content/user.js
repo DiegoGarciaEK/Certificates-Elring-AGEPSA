@@ -21,40 +21,40 @@ window.Script1 = function()
 let mm;
 switch (date.getMonth()) {
   case 0:
-    mm = "January";
+    mm = "Enero";
     break;
   case 1:
-    mm = "February";
+    mm = "Febrero";
     break;
   case 2:
-    mm = "March";
+    mm = "Marzo";
     break;
   case 3:
-    mm = "April";
+    mm = "Abril";
     break;
   case 4:
-    mm = "May";
+    mm = "Mayo";
     break;
   case 5:
-    mm = "June";
+    mm = "Junio";
     break;
   case 6:
-    mm = "July";
+    mm = "Julio";
     break;
   case 7:
-    mm = "August";
+    mm = "Agosto";
     break;
   case 8:
-    mm = "September";
+    mm = "Septiembre";
     break;
   case 9:
-    mm = "October";
+    mm = "Octubre";
     break;
   case 10:
-    mm = "November";
+    mm = "Noviembre";
     break;
   case 11:
-    mm = "December";
+    mm = "Diciembre";
 }
 var yyyy = date.getFullYear();
 date = mm + ' ' + yyyy;
@@ -64,8 +64,8 @@ var name = player.GetVar("Name"); /* Name of the participant (comes from Storyli
 var firma = player.GetVar("Company"); /* Company of the participant (comes from Storyline input) */
 var training = "Principles of the sealing technology\r\n in combustion engines";
 var city = player.GetVar("City");
-var line1 = 'has participated in the hands-on training seminar';
-var trainer = "FLORIAN KIZIAK";
+var line1 = 'ha participado en el seminario';
+var trainer = "DIEGO GARCÍA";
 var line2 = 'Technical Trainer IAM';
 var line3 = city + ', ' + date;
 
@@ -112,7 +112,7 @@ img.onload = function() {
 	doc.save("Certificate Elring.pdf"); /* Swap out ‘Certificate’ with what you want your certificate to be named */
   };
 img.crossOrigin = "";  
-img.src = "Zertifikat_2024_Florian.png"; /* Name of the certificate template */
+img.src = "Zertifikat_2024_Diego.png"; /* Name of the certificate template */
 }
 
 };
